@@ -1,0 +1,45 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "b2a5acab578a43dd4c6cbaaec5ff79ef5aaf90cbace3883e30c1f2a0b2219427",
+    "references/capabilities/billing-reconcile.md": "7880021e50341e561dc1adcaaa4dd924660d4d7ae019cd4ddab3b6d35f55d1f3",
+    "references/capabilities/carrier-comparison.md": "d9cfbe7a3e703fdf4803f9207611b6d65f307e81f47ba582b71a7c53faae91ae",
+    "references/capabilities/claims-triage.md": "b3d46dc0afe6643d7b19c6e26c226c5d29f8776ad4f9d6cdd0741e0a1c64ca8e",
+    "references/capabilities/inbound-handoffs.md": "032075cf088bf2d0062c86907e614f3ecc1099378820a66df9a296a5e6db6b03",
+    "references/capabilities/inbound-plan.md": "dc9735fb83481a87e688b5e7a88a1b197c426241b884ad15c1c8bddb309cf5f7",
+    "references/capabilities/integration-check.md": "a29e0656815008208381b7c8ed06adb3a81a2b472d1d05aa7ec63eab789a3bcf",
+    "references/capabilities/inventory-reconcile.md": "4acc7c32a426c4f221886f70004eddc065b2440067780d736bad4777c8681b21",
+    "references/capabilities/order-exception.md": "4af6bf58a963e83aaf55cba785ffc792d932d63b67b7d168e696d133b2e4f8a2",
+    "references/capabilities/outbound-routing.md": "3f9e71db0d6d09ffed751c39a5d332390dc7b3387f9f6c855e1c3a4c00772a6b",
+    "references/capabilities/returns-receiving.md": "c19a407e71ce11d36b4783abfa00cfa3b072e1e7f092f37685219310b6f5116c",
+    "references/capabilities/sku-onboarding.md": "2d5f78083c046cf05dc4808a585319d875b0adadfd6e998c087ca8aa28201f1c",
+    "references/capabilities/tracking-exception.md": "e913917e842ec7f0c4f1d3fbbff32aab0768e7312a7926d83114bc9fa5b3b975",
+    "references/capability-index.md": "c492d81ec73f8e94712057c52d4e957806a212f36c646985e414a3875f5d2862",
+    "references/cheatsheet.md": "14e88dfa666974a0d95a27af6a73edee3aac0c3ccac5023485041b47154a21a7",
+    "references/glossary.md": "7953951bb1759a313f1e16865feff3ba7ebb6c267279b8876961eb0cfc67312a",
+    "references/overview.md": "664fbb33b59a1b78680460e62328d3c351a957212c2c01b67061a5bd9dd256bf",
+    "resources/conflicts.md": "eb921c46eee37be030f824b5b0f2953d9a9ffef2c2b0ff9e7e7c6bfb9d9800e0",
+    "resources/content-interface.md": "c47d2a87dead43bd669ae086111186ee841a7da8312bdef3f8319c423261405a",
+    "resources/source-register.tsv": "73921a2c449d4102ac42af884d3ff47d0eb94b95e60a0d59e624b11f023d1588"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.yqn-logistics-expert",
+  "bundle_sha256": "a3330fb9a3cf0e6ee44b236091c2e24aca1c528f84f5303e44e966e390e8b126",
+  "variant": "single",
+  "run_id": "run-20260930-134514-722fe6",
+  "decision": {
+    "schema_version": 1,
+    "requested": "auto",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "仅 0 个能力通过晋级门（<3），不满足 pack 推荐条件"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": false,
+    "preserve_strategy_on_update": true
+  }
+}
